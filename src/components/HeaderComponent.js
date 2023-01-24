@@ -40,7 +40,7 @@ class Header extends Component {
 
                         </NavbarToggler>
                         <NavbarBrand className="mr-auto" href="/home">
-                            <img src="assets/images/logo.png" width="50%" alt="Con Fusion"></img>
+                            <img src="/mit-fullstack/assets/images/logo.png" width="50%" alt="Con Fusion"></img>
                         </NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>

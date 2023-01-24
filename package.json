@@ -1,5 +1,6 @@
 {
   "name": "react-app-demo",
+  "homepage": "/mit-fullstack",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,6 +47,7 @@
     "react-redux": "^5.0.7",
     "react-refresh": "^0.11.0",
     "react-router-dom": "^4.2.2",
+    "react-redux-form": "^1.16.8",
     "reactstrap": "^5.0.0",
     "redux": "^3.7.2",
     "resolve": "^1.20.0",

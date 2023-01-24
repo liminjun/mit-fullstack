@@ -6,7 +6,10 @@ import Footer from './FooterComponent';
 import Class0330 from './Class0330Component';
 import Class0526 from './Class0526component';
 
-import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import About from './AboutComponent';
+import Contact from './ContactComponent';
+
+import { BrowserRouter as Router, Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 class Main extends Component {
     constructor(props) {
@@ -19,18 +22,25 @@ class Main extends Component {
             )
         }
         return (
+            <Router basename='/mit-fullstack'>
             <div className='App'>
                 <Header></Header>
-                <Switch location={this.props.location}>
-                    <Route path='/home' component={Home}></Route>
-                    <Route path='/0330' component={Class0330}></Route>
-                    <Route path='/0526' component={Class0526}></Route>
-                    <Route path='/home' component={Home}></Route>
+                    
+                    
+                        <Route path='/home' component={Home}></Route>
+                        <Route path='/0330' component={Class0330}></Route>
+                        <Route path='/0526' component={Class0526}></Route>
+                        <Route path='/home' component={Home}></Route>
 
-                    <Redirect to="/home"></Redirect>
-                </Switch>
+                        <Route path="/about" component={About}></Route>
+                        {/* <Route path="/contactus" component={Contact}></Route> */}
+                        {/* <Redirect to="/home"></Redirect> */}
+                        
+                   
+  
                 <Footer></Footer>
             </div>
+            </Router>
         )
     }
 }
