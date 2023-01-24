@@ -9,7 +9,7 @@ import Class0526 from './Class0526component';
 import About from './AboutComponent';
 import Contact from './ContactComponent';
 
-import { BrowserRouter as Router, Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 class Main extends Component {
     constructor(props) {
@@ -22,7 +22,7 @@ class Main extends Component {
             )
         }
         return (
-            <Router basename='/mit-fullstack'>
+            <Router basename='/'>
             <div className='App'>
                 <Header></Header>
                     
