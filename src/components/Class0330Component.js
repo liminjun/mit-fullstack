@@ -19,7 +19,7 @@ const contentHtml =
                 </CardTitle>
                 <CardText dangerouslySetInnerHTML = {{ __html: people.description }}>
                 </CardText>
-                <CardLink href={people.link}>
+                <CardLink href={people.link} target="_blank">
                     更多
                 </CardLink>
             </CardBody>

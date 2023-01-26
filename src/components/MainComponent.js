@@ -16,30 +16,25 @@ class Main extends Component {
         super(props);
     }
     render() {
-        const HomePage = () => {
-            return (
-                <div>Home page.</div>
-            )
-        }
         return (
             <Router basename='/'>
-            <div className='App'>
-                <Header></Header>
-                    
-                    
-                        <Route path='/home' component={Home}></Route>
-                        <Route path='/0330' component={Class0330}></Route>
-                        <Route path='/0526' component={Class0526}></Route>
-                        <Route path='/home' component={Home}></Route>
+                <div className='App'>
+                    <Header></Header>
 
-                        <Route path="/about" component={About}></Route>
-                        {/* <Route path="/contactus" component={Contact}></Route> */}
-                        {/* <Redirect to="/home"></Redirect> */}
-                        
-                   
-  
-                <Footer></Footer>
-            </div>
+
+                    <Route path='/home' component={Home}></Route>
+                    <Route path='/0330' component={Class0330}></Route>
+                    <Route path='/0526' component={Class0526}></Route>
+                    
+
+                    <Route path="/about" component={About}></Route>
+                    {/* <Route path="/contactus" component={Contact}></Route> */}
+                    {/* <Redirect to="/home"></Redirect> */}
+
+
+
+                    <Footer></Footer>
+                </div>
             </Router>
         )
     }
