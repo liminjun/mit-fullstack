@@ -11,7 +11,7 @@ const contentHtml =
             <img
                 alt="Card cap"
                 src={people.photo}
-                width="100%"
+                height="300px"
             />
             <CardBody>
             <CardTitle tag="h5">
