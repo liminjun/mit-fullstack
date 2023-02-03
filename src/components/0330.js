@@ -16,6 +16,12 @@ let peoples = [{
     "link" : "https://github.com/torahtian"
 },
 {
+    "photo": "/mit-fullstack/assets/avatar/wangdaoyuan.jpg",
+    "name": "王道元",
+    "description": "北京外国语大学翻译硕士 就职于中国有色工程研究总院 翻译室副主任 <br>18年开始接触编程 开发的VBA程序“译者工具箱”获公司22年小发明创造奖三等奖 <br>目前负责部门数字化工作",
+    "link" : "https://ericwdy.github.io/"
+},
+{
     "photo": "/mit-fullstack/assets/avatar/liminjun.png",
     "name": "助教-李敏军",
     "description": "中国移动苏州研发中心<br>前端开发工程师<br>负责公司私有云前端架构和开发工作毕业于南昌大学，2010年去印度为期一个月的实习交流经验",
