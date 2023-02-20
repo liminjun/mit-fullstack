@@ -63,9 +63,19 @@ class Header extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/contactus">
+                                    <NavLink className="nav-link" to="/portfolio">
                                         <span className="fa fa-address-card fa-lg"></span>
-                                        意见反馈</NavLink>
+                                        GitHub作品集</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/bankapp1">
+                                        <span className="fa fa-address-card fa-lg"></span>
+                                        银行应用-静态版</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/bankapp2">
+                                        <span className="fa fa-address-card fa-lg"></span>
+                                        银行应用-动态版</NavLink>
                                 </NavItem>
 
                             </Nav>

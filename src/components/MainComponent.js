@@ -5,7 +5,7 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Class0330 from './Class0330Component';
 import Class0526 from './Class0526component';
-
+import Portfolio from './Portfolio'
 import About from './AboutComponent';
 import Contact from './ContactComponent';
 
@@ -28,8 +28,10 @@ class Main extends Component {
                     
 
                     <Route path="/about" component={About}></Route>
-                    {/* <Route path="/contactus" component={Contact}></Route> */}
-                    {/* <Redirect to="/home"></Redirect> */}
+                    <Route path="/portfolio" component={Portfolio}></Route>
+                    <Route path="/bankapp1" component={Portfolio}></Route>
+                    <Route path="/bankapp2" component={Portfolio}></Route>
+                    <Redirect to="/home"></Redirect>
 
 
 
