@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mit-fullstack/static/css/main.1b1f976f.css",
-    "main.js": "/mit-fullstack/static/js/main.6bf94bf9.js",
-    "static/js/899.8fa40ef6.chunk.js": "/mit-fullstack/static/js/899.8fa40ef6.chunk.js",
+    "main.js": "/mit-fullstack/static/js/main.5a9c118c.js",
+    "static/js/787.d86a1032.chunk.js": "/mit-fullstack/static/js/787.d86a1032.chunk.js",
     "static/media/logo.svg": "/mit-fullstack/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mit-fullstack/index.html",
     "main.1b1f976f.css.map": "/mit-fullstack/static/css/main.1b1f976f.css.map",
-    "main.6bf94bf9.js.map": "/mit-fullstack/static/js/main.6bf94bf9.js.map",
-    "899.8fa40ef6.chunk.js.map": "/mit-fullstack/static/js/899.8fa40ef6.chunk.js.map"
+    "main.5a9c118c.js.map": "/mit-fullstack/static/js/main.5a9c118c.js.map",
+    "787.d86a1032.chunk.js.map": "/mit-fullstack/static/js/787.d86a1032.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b1f976f.css",
-    "static/js/main.6bf94bf9.js"
+    "static/js/main.5a9c118c.js"
   ]
 }
